@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+   }
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+
+  
+  .background {
+    background: url(https://images.rawpixel.com/image_1000/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIyLTA1L3B4MTU4NDc5OS1pbWFnZS1rd3Z4dnVjai5qcGc.jpg) no-repeat center;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  }
+  
+  .box {
+    background-color: #ffffff;
+    border: 1px solid black;
+    opacity: 0.8;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+    text-align: center;
+    height: 70%;
+    width: 25%;
+    padding: 0 20px;
+    border-radius: 20px;
+  }
+  .box-1 {
+    font-weight: bold;
+    color: #000000;
+  }
+  
+  .box-1 h2 {
+    margin-top: 25px;
+    margin-bottom: 5px;
+  }
+  
+  
+img {
+    z-index: 5;
+    padding-top: 50px;
+    /* padding-bottom: 60px; */
+}
+
+.rangeBar {
+    -webkit-appearance: none;
+    height: 5px;
+    width: 100%;
+    background: rgb(99, 1, 99);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.rangeBar::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    height: 25px;
+    width: 25px;
+    background: rgb(80, 1, 80);
+    border-radius: 50%;
+    border: 8px solid #fff;
+    cursor: pointer;
+    box-shadow: 0 5px 5px rgb(245, 119, 245);
+}
+
+.palyButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.palyButton div {
+    width: 60px;
+    height: 60px;
+    margin: 20px;
+    background: #fff;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.play-setting {
+    margin-top: 100px;
+}
+
+.time{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    padding-bottom: 10px;
+    font-weight: 500;
+}
+.fa-solid{
+    font-size: 50px;
+    color: #7427a1;
+    margin-top: 10px;
+    /* box-shadow: 0 5px 5px rgb(245, 119, 245); */
+}
+.fa-circle-play{
+    font-size: 70px;
+    color: #49106A;
+    font-weight: 400;
+    width: 50px;
+}
+.fa-circle-pause{
+    font-size: 70px;
+    color: #49106A;
+    font-weight: 400;
+    width: 50px;
+}
